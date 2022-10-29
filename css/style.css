@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #c4c4c4;
+}
+
+.header-main{
+    background-image: url(../images/bg-3.jpg);
+    height: 700px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid #38383849;
+}
+
+.header-main nav li {
+    display: inline-block;
+    list-style: none;
+    border: solid 2px white;
+    padding: 13px;
+    margin: 0px 5px 0px 0px;
+    background-color: #38383849;
+}
+
+.header-main nav li:hover{
+    background-color: #383838af
+}
+
+.header-main a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.header-main nav ul {
+    text-align: right;
+    margin: 20px;
+}
+
+.content {
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.content a {
+    text-decoration: none;
+    background-color: #1d1d1d9a;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border-bottom: solid white;
+}
+
+.content h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 3px 3px 5px #303030;
+    padding: 30px;
+}
+
+main{
+    width: 60%;
+    margin: auto;
+}
+
+/* .images-cards{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    display: flex;
+    position: relative;
+} */
+
+.content-main{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card-1, .card-2 {
+    margin-right: 2%;
+}
+
+.card img{
+    width: 100%;
+    display:block;
+}
+
+.card p {
+    background-color: #2c2c2c;
+    color: white;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 15px;
+}
+
+.content-article{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+footer{
+    background-color: #1d1d1d;
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
+    width: 100%;
+    color: white;
+    text-shadow: 3px 3px 5px #7c7c7c;
+}
+
+.content-article h3 {
+    background-color: #6e6e6e77;
+    padding: 20px;
+    margin-top: 0px;
+    border-bottom: solid #3030306e;
+    font-size: 25px;
+}
